@@ -29,6 +29,8 @@ For example, if you need to install [Extra Packages](https://airflow.incubator.a
 
 Don't forget to update the airflow images in the docker-compose files to puckel/docker-airflow:latest.
 
+You may need to change the mod of script/entrypoint.sh: chmod +x script/entrypoint
+
 ## Usage
 
 By default, docker-airflow runs Airflow with **SequentialExecutor** :
